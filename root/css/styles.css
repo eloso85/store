@@ -1,0 +1,43 @@
+/* Navbar */
+
+
+
+/* Header Image */
+.header_img{
+    background-color: #000000;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/computerhead.jpg"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+@media (min-width: 768px) { 
+    .header_text{
+        margin-top: 9rem;
+    }
+ }
+
+ .offcanvas.show ul li a{
+     color: #000000 !important;
+     /* fill: #000000 !important; */
+ }
+
+ /* Product Selector */
+
+ .product_selector{
+     padding: 20px;
+ }
+ /* about us */
+ @media (min-width: 768px){
+     .about_us_col1{
+         padding: 100px;
+     }
+ }
+ .about_us{
+     background: #8306EA;
+     padding-top: 100px;
+     padding-bottom: 100px;
+
+
+ }
